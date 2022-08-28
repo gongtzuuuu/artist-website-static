@@ -1,0 +1,123 @@
+html, body {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #EFEFEF;
+}
+
+body {
+    position: relative;   
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 10px 0px;
+    color:#8C271E; 
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #EFEFEF;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.is-light {
+    color: #EFEFEF;
+    border: 1px solid #EFEFEF;
+    background-color: #8C271E;
+}
+
+.is-light:hover {
+    color: #8C271E;
+    border: 1px solid #8C271E;
+    background-color: #EFEFEF;
+}
+
+.main-pic {
+    position: relative;
+}
+
+.btn-area {
+    position: absolute;
+    display: flex;
+    top: 30px;
+    right: 40px;
+}
+
+.btnbox {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #EFEFEF;
+    margin: 0px 5px;
+    text-align: center;
+    padding: 8px;
+    color:#EFEFEF;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+
+    color: #EFEFEF;
+    font-size: 0.8rem;
+}
+
+.pic-des {
+    position: absolute;
+    top: 55%;
+    left: 30px;
+    max-width: 400px;
+}
+
+.pic-des .des-text {
+    color: #EFEFEF;
+}
+
+.pic {
+    height: 90vh;
+    background-image: url(displaced.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+
+.main-des {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-area {
+    height: 45vh;
+}
+
+.nav {
+    position: absolute;
+    bottom: 0px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}

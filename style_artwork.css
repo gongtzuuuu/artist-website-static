@@ -1,0 +1,105 @@
+html, body {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #EFEFEF;
+}
+
+body {
+    position: relative;   
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color:#8C271E; 
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: grey;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.is-light {
+    color: #EFEFEF;
+    border: 1px solid #EFEFEF;
+    background-color: #8C271E;
+}
+
+.is-light:hover {
+    color: #8C271E;
+    border: 1px solid #8C271E;
+    background-color: #EFEFEF;
+}
+
+.product-title-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text {
+    margin-bottom: 25px;
+}
+
+.products-item {
+    margin: 25px;
+}
+
+.box {
+    margin-right: 10px;
+    margin-bottom: 25px;
+    padding: 25px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.item-img-1 {
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background-image: url("wash2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item-img-2 {
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background-image: url("smoke.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item-img-3 {
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background-image: url("smoke5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.item-img-4 {
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background-image: url("here.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-area {
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+}
